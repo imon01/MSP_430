@@ -1,6 +1,6 @@
 # MSP_430
 
-Personal developement to microcontrollers using the TI MSP 430
+Personal developement to microcontrollers using the TI MSP 430--EXP430f5529lp.
 
 ## Getting Started
 
