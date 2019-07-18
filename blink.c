@@ -11,7 +11,7 @@ int main(void)
 {
     // disable watchdog
     WDTCTL = WDTPW | WDTHOLD;
-    volatile unsigned int i;
+    //volatile unsigned int i;
   
     P1DIR |= 0x0001;
     P4DIR |= 0x0080;
