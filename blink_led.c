@@ -13,8 +13,8 @@ int main(void)
     WDTCTL = WDTPW | WDTHOLD;
     //volatile unsigned int i;
   
-    P1DIR |= 0x0001;
-    P4DIR |= 0x0080;
+    P1DIR |= 0x0001; //LED 1;  P1.0
+    P4DIR |= 0x0080; //LED 2; P4.7
     P1OUT = 0; 
     P4OUT = 0; 
     
