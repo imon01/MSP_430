@@ -1,3 +1,5 @@
+//Blink leds for MSP-EXP430F5529LP
+
 #include  <msp430.h>
 
 
