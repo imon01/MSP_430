@@ -17,3 +17,7 @@ None right now, constant updates.
 
 ## Support Files
 http://www.ti.com/tool/MSP430-GCC-OPENSOURCE
+
+## Tools
+TI development tools
+* http://www.ti.com/tool/download/MSP-CGT-17#sw-whats-new-box
