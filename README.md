@@ -27,7 +27,7 @@ mspdebug
 ## Creating executable
 
 ```
-msp430-elf-gcc -mmc=msp430f5529 -T<path-to-linker-scripts\>/msp430f5529.ld -o <target-file\>.elf <target-file\>.c
+msp430-elf-gcc -mmc=msp430f5529 -T<path-to-linker-scripts>/msp430f5529.ld -o <target-file>.elf <target-file>.c
 ```
 
 
