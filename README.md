@@ -17,12 +17,14 @@ http://www.ti.com/tool/MSP430-GCC-OPENSOURCE
 ## Tools
 TI development tools
 * http://www.ti.com/tool/download/MSP-CGT-17#sw-whats-new-box
+	-Might need updating
+http://www.ti.com/tool/MSP430-FLASHER
 
-Might need revision.
 
 ## Toolcain
 msp430-elf-gcc
 mspdebug
+mspflasher (MSPFlasher) 
 
 ## Creating executable
 
@@ -41,6 +43,22 @@ Once inside mspdebug, issue the prog command:
 ```
 prog <elf-file>.elf
 ```
+
+
+## Flashing
+Flash the firmware via the following:
+```
+<path>MSP430Flasher -i ttyACM0 -n MSP430F5529 -w <firmware>.hex -v -g
+```
+
+
+The Intel hex file can be generated with the following:
+```
+msp430-elf-objcopy -O ihex <firmware>.hex <firmware>.elf
+```
+
+A remark:
+The flasher tool looks for the environment variable `LD_LIBRARY_PATH`. Set this to the same directory where the flasher tool is located.
 
 ## Issues
 
